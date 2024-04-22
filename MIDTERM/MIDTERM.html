@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MIDTERM.css">
+    <link rel="stylesheet" href="budy.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/75ca97d599.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" type="image/x-icon" href="images-removebg-preview.png " />
+    <title>MUSIC PLAYER</title>
+</head>
+<body>
+    
+
+    <div class="navbar">
+        <div class="left">
+            <div class="Icon" ><img class="icon" src="images-removebg-preview.png" alt=""></div>
+            <div > <p>Music Player</p></div>
+        </div>
+        <div class="Search">
+            <div>
+                <form action="">
+                    <input class="search" type="text"  >
+                <label for="search"> Search Song</label>
+                </form>
+
+            </div>
+
+            
+            
+
+            <div>
+              <button id="glass"><i  class="fa-solid fa-magnifying-glass"></i></button> 
+                
+               
+              
+            </div>
+
+
+            
+        </div>
+       
+     <div class="right">
+        <div> <button class="but1">Favorites</button></div>
+        <div> <button class="but1">Playlist</button></div>
+        
+    </div>
+        
+    </div>
+    <div class="budy">
+        <div class="song">
+            <div class="title">Buwan</div>
+            <div class="albumcover1"><img class="cover" src="Buwan_album_cover.jpg" alt="" ></div>
+            
+            <div class="artist">Juan Karlos</div>
+
+            <div class="slider">
+                <input type="range" value="0" class="seek">
+                <span class="current-time">00:00</span>
+                <span class="song-time">00:00</span>
+            </div>
+
+
+            <div class="play">
+
+                <audio  id="audio" src="juan karlos - Buwan (Official Music Video).mp3"></audio>
+               
+
+
+               
+
+                <div class="previous">
+                    <button class="backward-button" ><i class="fa-solid fa-backward"></i></button>
+                </div>
+
+                <div>
+                    <button class="play-button" ><i id="play1" class="fa-solid fa-play"></i>
+                        
+                    </button>
+                    
+
+                   
+                </div>
+
+                <div>
+                    <button class="forward-button"  ><i class="fa-solid fa-forward"></i></button>
+                </div>
+
+                
+                
+            </div>
+
+        
+        
+        </div>
+
+
+
+
+        <div class="pick">
+            <div class="nextsong">Next Song</div>
+            
+            <div class="scrollable"> 
+                
+                <div class="newsong">
+                    
+                    <div><div class="bawat"><img class="cover1" src="piyesa.jpg" alt=""></div>
+                </div>
+                <div class="inside" >
+                    <div class="nextsongtitle">
+                        Bawat Pyesa
+                    </div>
+                    <div class="nextsongartist">
+                        Muni-Muni
+                    </div>
+                </div>
+                <div style="position: fixed;
+                margin-left: 350px;">
+                    2:48
+                </div>
+
+                </div>
+               
+
+
+
+
+
+                
+
+
+                
+
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+<script src="data.js">  </script>
+    <script src="app.js"></script>
+
+</html>
